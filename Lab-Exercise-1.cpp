@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 
-	int no1,no2,x,sum,sum41;
+	int no1,no2,x,sum;
 
 	cout<<"Find the sum of a given number"<<endl;
 	cout<<"------------------------------"<<endl;
