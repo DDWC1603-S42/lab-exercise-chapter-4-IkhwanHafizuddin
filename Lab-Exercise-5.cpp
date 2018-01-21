@@ -5,7 +5,7 @@
 using namespace std;
 int main()
 {
-	while(false)//infinite loop
+	while(true)//infinite loop
 	{
 		std::cout<<"Enter 0 to exit or anyhing else to continue: ";
 		int num;
