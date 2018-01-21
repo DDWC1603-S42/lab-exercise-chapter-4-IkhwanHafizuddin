@@ -7,27 +7,25 @@ using namespace std;
 int main()
 {
 
-	int i=1,u=1,sum=0;
-	cout<<"The perfect numbers between 1 to 500 are: "<<endl;
+	int i=1,u,sum=0;
+	bool isprime = true;
+	cout<<"Enter a positive integer: "<<endl;
+	cin>>u;
+	
 
-	while(i<=500)
+	for(i=2; i<=u/2;++i){
+		if(i%u==0){
+				isprime = false;
+				break;
+	}
+}
 
-		while(u<=500)
-
-			if(u<i)
-
-				if(i%u=)
-					sum=sum+u;
-
-	u++
-
-		if(sum=i)
+		if(isprime){
 			
-			cout<<i<<" "<<endl;
-
-	i++
-		u=1;
-		sum=0;
-
+			cout<<u<<" is a prime number. "<<endl;
+	}else{
+		cout<<u<<" is not a prime number.";
+	}
+	
 
 }
